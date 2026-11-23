@@ -107,7 +107,7 @@ function playAudio() {
     // For example if you change to a bell sound, here you could use "/churchBell/gate" instead of
     // "/thunder/rumble".
     dspNode.setParamValue("/thunder/rumble", 1)
-    setTimeout(() => { dspNode.setParamValue("/thunder/rumble", 0) }, 100);
+    setTimeout(() => { dspNode.setParamValue("/thunder/rumble", 0) }, 500);
 }
 
 //==========================================================================================
